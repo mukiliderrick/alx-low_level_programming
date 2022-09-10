@@ -2,12 +2,12 @@
 
 
 /*
- *main prints Programming is like building a multilingualppuzzle
- *retunr prints 0 always
+ *main - prints Programming is like building a multilingualppuzzle
+ *return: prints 0 always
  *
  */
-int main (void)
+int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return 0;
 }

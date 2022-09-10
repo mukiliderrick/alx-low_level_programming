@@ -1,9 +1,9 @@
-#include<stdio.hu>
+#include<stdio.h>
 
 /**
  *
- *printf prints Your program should compile without warning when using the -Wall gcc option
- *return a non zero
+ *main- prints Your program should compile without warning when using the -Wall gcc option
+ *return: a non zero
  *
  *
  */
