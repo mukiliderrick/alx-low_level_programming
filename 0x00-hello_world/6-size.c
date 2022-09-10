@@ -1,5 +1,3 @@
-#!/bin/bash/
-
 #include<stdio.h>
 /**
  *main prints size of various data types

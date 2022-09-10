@@ -1,6 +1,4 @@
-#/!bin/bash
-
-#include<stdio.h>
+#include<stdio.hu>
 
 /**
  *
