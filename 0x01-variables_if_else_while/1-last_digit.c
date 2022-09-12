@@ -5,7 +5,7 @@
 
 /**
 main - prints the random number
-return: returns a non zero
+return: returns a non zero(success)
  */
 int main(void)
 {
@@ -14,9 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
     int l = n % 10;
-	if (l > 5)
+    printf( "last digit of %d is %d",n,l);
+	if (l% 10 > 5)
     {
-        printf("%d and is greater than 5",l);
+        printf("%d and is greater than 5",n);
     }else if (l == 0)
     {
         printf("%d and is 0",l);
