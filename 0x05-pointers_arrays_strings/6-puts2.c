@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints the size of the string
- * @s: the string to be printed
+ * @str: the string to be printed
  * 
  */
 void puts2(char *str)
@@ -16,7 +16,8 @@ void puts2(char *str)
     }
     for (i = 0; i < size; i+=2)
     {
-        _putchar(str[i]);
+         _putchar(str[i]);
     }
     _putchar('\n');
+
 }
