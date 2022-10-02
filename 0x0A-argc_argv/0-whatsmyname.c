@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <studio.h>
 /**
  * main - Prints name of the program
  * 
