@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * print_list - prints the number of nodes.
+ * @h: The list_t list.
+ * 
+ * Return: returns the number of nodes in h.
+*/
+
 size_t print_list(const list_t *h)
 {
     size_t nodes = 0;
