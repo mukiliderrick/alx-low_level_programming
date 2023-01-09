@@ -4,15 +4,28 @@
 */
 unsigned int binary_to_uint(const char *b)
 {
-    unsigned int num = 0;
+    int len = 0, i;
+    unsigned int sum = 0;
 
-	if (!b)
+	if (b == NULL)
 		return (0);
-	while (*b)
+    while(b[len] != '\0')
+    len++;
+
+    len -= 1;
+    
+    i = 0;
+	while (b[i])
 	{
-		if (*b != '0' && *b != '1')
-			return (0);
-		num = num * 2 + (*b++ - '0');
+		if ((b[i] != '0') && (b[i] != '1'))
+			return (sum);
+
+		if (b[i] == '1')
+			sum += (1 * (1 << len));
+		i++;
+		len--;
 	}
-	return (num);
+
+	return (sum);
+	
 }
